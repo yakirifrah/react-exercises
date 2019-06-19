@@ -1,7 +1,7 @@
 {
-  "name": "pizza",
+  "name": "appleseeds-react-template",
   "version": "0.1.0",
-  "description": "A sample Node.js app - pizza game",
+  "description": "A react template for appleseeds' students",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
