@@ -1,0 +1,33 @@
+    .app {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .box1 {
+        background-color: #2ecc71;
+        width: 400px;
+        height: 200px;
+    }
+
+    .box2 {
+        position: relative;
+        background-color: #3498db;
+        width: 300px;
+        height: 250px;
+    }
+
+    .box3 {
+        position: relative;
+        background-color: #a29bfe;
+        width: 250px;
+        height: 200px;
+    }
+
+    .box4 {
+        background-color: black;
+        margin-bottom: 11px;
+        width: 200px;
+        height: 50px;
+
+    }
