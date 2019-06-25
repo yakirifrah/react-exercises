@@ -7,6 +7,9 @@ class Header extends React.Component {
         );
     }
 }
+
+
+
 class StripeCenter extends React.Component {
     constructor() {
         super();
@@ -15,20 +18,30 @@ class StripeCenter extends React.Component {
         $(event.target).toggleClass('change-background-icon');
     }
     onLeave(event) {
-     
-
-
+        $(event.target).toggleClass('change-background-icon');
     }
     render() {
         return (
             <div className="stripe-center">
-                <StripeIcon1 onEnter={this.onEnter} onLeave={this.onLeave} />
-                <StripeIcon2 onEnter={this.onEnter} onLeave={this.onLeave} />
-                <StripeIcon3 onEnter={this.onEnter} onLeave={this.onLeave} />
+                <StripeIcon1
+                    onEnter={this.onEnter}
+                    onLeave={this.onLeave}
+                />
+                <StripeIcon2
+                    onEnter={this.onEnter}
+                    onLeave={this.onLeave}
+                />
+                <StripeIcon3
+                    onEnter={this.onEnter}
+                    onLeave={this.onLeave}
+                />
             </div>
         );
     }
 }
+
+
+
 class StripeIcon1 extends React.Component {
     render() {
         return (
@@ -41,6 +54,9 @@ class StripeIcon1 extends React.Component {
         );
     }
 }
+
+
+
 class TitleIcon1 extends React.Component {
     render() {
         return (
@@ -48,6 +64,9 @@ class TitleIcon1 extends React.Component {
         );
     }
 }
+
+
+
 class SecondaryTitleIcon1 extends React.Component {
     render() {
         return (
@@ -66,6 +85,8 @@ class SecondaryTitleIcon1 extends React.Component {
     }
 }
 
+
+
 class StripeIcon2 extends React.Component {
     render() {
         return (
@@ -78,6 +99,9 @@ class StripeIcon2 extends React.Component {
         );
     }
 }
+
+
+
 class TitleIcon2 extends React.Component {
     render() {
         return (
@@ -85,6 +109,8 @@ class TitleIcon2 extends React.Component {
         );
     }
 }
+
+
 class SecondaryTitleIcon2 extends React.Component {
     render() {
         return (
@@ -115,6 +141,8 @@ class StripeIcon3 extends React.Component {
         );
     }
 }
+
+
 class TitleIcon3 extends React.Component {
     render() {
         return (
@@ -124,6 +152,8 @@ class TitleIcon3 extends React.Component {
         )
     };
 }
+
+
 class SecondaryTitleIcon3 extends React.Component {
     render() {
         return (
@@ -141,6 +171,7 @@ class SecondaryTitleIcon3 extends React.Component {
         );
     }
 }
+
 
 class MainTitle extends React.Component {
     render() {
@@ -160,6 +191,8 @@ class DescriptionTitle extends React.Component {
         );
     }
 }
+
+
 class GroupTitle extends React.Component {
     render() {
         return (
@@ -170,6 +203,8 @@ class GroupTitle extends React.Component {
         );
     }
 }
+
+
 class Nav extends React.Component {
     render() {
         return (
@@ -182,6 +217,8 @@ class Nav extends React.Component {
         );
     }
 }
+
+
 class Main extends React.Component {
     render() {
         return (
@@ -192,6 +229,8 @@ class Main extends React.Component {
         );
     }
 }
+
+
 class App extends React.Component {
     render() {
         return (
