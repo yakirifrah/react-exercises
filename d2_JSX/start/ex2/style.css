@@ -1,0 +1,133 @@
+body,
+html {
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+
+}
+
+.main-li {
+    float: none;
+}
+
+p {
+    max-width: 400px;
+
+}
+
+.main-ul {
+    list-style-type: none;
+
+}
+
+.stripe-icon {
+    display: inline-block;
+    margin-left: 4%;
+
+}
+
+
+.header {
+    height: 10vh;
+}
+
+.last-item {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+img {
+    width: 40px;
+    height: 20px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li {
+    float: left;
+}
+
+li a:hover,
+li a:active {
+    text-decoration: underline;
+
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 90vh;
+    background-color: #fab1a0;
+}
+
+.group-title {
+    padding-top: 50px;
+    text-align: -webkit-center
+}
+
+.title-main {
+    font-size: 40px;
+}
+
+.description-title {
+    font-size: 20px;
+}
+
+.icon1 {
+    background-image: url('https://image.flaticon.com/icons/png/512/344/344457.png');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.icon2 {
+    background-image: url('https://image.flaticon.com/icons/png/512/262/262123.png');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.change-background-icon {
+    background-image: url('https://openclipart.org/image/2400px/svg_to_png/213252/Gear-icon.png');
+}
+
+.icon3 {
+    background-image: url('https://cdn2.iconfinder.com/data/icons/bubble-seo-internet-marketing-2-2/360/Landing_Page_Optimization-512.png');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+}
+
+.stripe-center {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.title-icon {
+    padding-top: 7%;
+}
