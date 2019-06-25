@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #7f8c8d;
+}
+
+.radio-style {
+    position: absolute;
+    bottom: 3px;
+    left: 33%;
+}
+
+img {
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.cardList-style {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-left: 2%;
+    background-color: #fff;
+    text-align: -webkit-center;
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    position: relative;
+}
+
+
+input {
+    display: inline-block;
+}
+
+p {
+    max-width: 100px;
+}
