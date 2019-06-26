@@ -1,0 +1,16 @@
+.calculator {
+    margin-top: 2%;
+    border: 2px solid black;
+    width: 400px;
+    height: 150px;
+}
+
+input,
+label,
+h1 {
+    margin-left: 3%;
+}
+
+h1 {
+    font-size: 20px;
+}
