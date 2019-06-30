@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: #81ecec;
+}
+
+.container-img {
+    margin-left: 2%;
+
+}
+
+.img-style {
+    width: 20px;
+    height: 20px;
+}
+
+.budget {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    height: 15px;
+    width: 19px;
+    z-index: 2;
+}

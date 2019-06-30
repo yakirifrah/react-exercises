@@ -68,17 +68,6 @@ class Button extends React.Component {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 function render() {
     ReactDOM.render(
         <App />,
