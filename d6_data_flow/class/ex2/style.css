@@ -1,0 +1,22 @@
+div {
+    margin: 20px 30px;
+    padding: 10px;
+}
+
+
+
+.green {
+    background: lightgreen;
+}
+
+.blue {
+    background: lightskyblue;
+}
+
+.pink {
+    background: lightpink;
+}
+
+.purple {
+    background: plum;
+}
