@@ -13,25 +13,26 @@ class ColorSelector extends React.Component {
     }
 }
 class App extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.change = this.change.bind(this);
-        this.state = {
-            colorShirt: 'aqua',
-            colorDress: 'aqua'
-        }
     }
+
     change(event) {
         var typeClothes = event.target.attributes.getNamedItem('data').value;
         if (typeClothes === 'shirt') {
-            this.setState({
-                colorShirt: event.target.value
-            })
+            this.props.clothes.shirt = event.target.value;
+            let spanShirt = document.getElementById('shirt');
+            spanShirt.innerHTML = this.props.clothes.shirt;
+            spanShirt.style.color = this.props.clothes.shirt;
+
+
         }
         if (typeClothes === 'dress') {
-            this.setState({
-                colorDress: event.target.value
-            })
+            this.props.clothes.dress = event.target.value;
+            let spanDress = document.getElementById('dress');
+            spanDress.innerHTML = this.props.clothes.dress;
+            spanDress.style.color = this.props.clothes.dress;
         }
     }
 
@@ -48,40 +49,34 @@ class App extends React.Component {
                     change={this.change}
                     colorsVal={colorsVal}
                 />
-                <Title
-                    text="your shirt will be "
-                    nameColor={this.state.colorShirt}
-                />
+                <div>
+                    <h1>your shirt will be <span id="shirt"></span></h1>
+                </div>
                 <ColorSelector
                     data='dress'
                     change={this.change}
                     colorsVal={colorsVal}
                 />
-                <Title
-                    text="your dress will be "
-                    nameColor={this.state.colorDress}
-                />
+                <div>
+                    <h1>your dress will be <span id="dress"></span></h1>
+                </div>
             </div>
 
         );
     }
 
 }
-class Title extends React.Component {
-    render() {
-        console.log(this.props.nameColor)
-        return (
-            <div>
-                <h1>{this.props.text}<span style={{ color: this.props.nameColor }}>{this.props.nameColor}</span></h1>
-            </div>
-        )
-    }
-}
+
 function render() {
+    let clothes = {
+        shirt: 'aqua',
+        dress: 'aqua'
+    };
     ReactDOM.render(
-        <App />,
+        <App clothes={clothes} />,
         document.getElementById("root")
     );
-
 }
 render();
+
+
